@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - docker build -t greatsami/node .
-  - docker images greatsami/node
+  - docker build -t greatsami/test-node-cicd .
+  - docker images greatsami/test-node-cicd
